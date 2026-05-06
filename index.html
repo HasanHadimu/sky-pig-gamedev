@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    
+    <div class="controls">
+        <button id="restartButton">R</button>
+        <button id="fullScreenButton">F</button>
+        <button id="debugButton">D</button>
+    </div>
+
+    <div class="assets">
+        <img id="background" src="assets/images/background_single.png">
+        <img id="background2" src="assets/images/background_single2.png">
+        <img id="background_night" src="assets/images/background_night.png">
+        <img id="layer0" src="assets/images/layer0.png">
+        <img id="layer1" src="assets/images/layer1.png">
+        <img id="layer2" src="assets/images/layer2.png">
+        <img id="layer3" src="assets/images/layer3.png">
+        <img id="layer4" src="assets/images/layer4.png">
+
+        <img id="player_fish" src="assets/images/player_fish.png">
+        <img id="player_boar" src="assets/images/player_boar.png">
+        <img id="smallGears" src="assets/images/smallGears.png">
+        <img id="fishObstacles" src="assets/images/fishObstacles.png">
+        <audio id="charge" src="assets/sounds/charge.mp3"></audio>
+        <audio id="flap1" src="assets/sounds/flap1.mp3"></audio>
+        <audio id="flap2" src="assets/sounds/flap2.mp3"></audio>
+        <audio id="flap3" src="assets/sounds/flap3.mp3"></audio>
+        <audio id="flap4" src="assets/sounds/flap4.mp3"></audio>
+        <audio id="flap5" src="assets/sounds/flap5.mp3"></audio>
+        <audio id="win" src="assets/sounds/win.mp3"></audio>
+        <audio id="lose" src="assets/sounds/lose.mp3"></audio>
+
+        <audio id="boost" src="assets/sounds/boost.mp3"></audio>
+        <audio id="antigravity1" src="assets/sounds/antigravity1.mp3"></audio>
+        <audio id="antigravity2" src="assets/sounds/antigravity2.mp3"></audio>
+        <audio id="antigravity3" src="assets/sounds/antigravity3.mp3"></audio>
+        <audio id="antigravity4" src="assets/sounds/antigravity4.mp3"></audio>
+        <audio id="antigravity5" src="assets/sounds/antigravity5.mp3"></audio>
+
+    </div>
+
+    <script src="assets/scripts/audio.js"></script>
+    <script src="assets/scripts/background.js"></script>
+    <script src="assets/scripts/player.js"></script>
+    <script src="assets/scripts/obstacle.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+</html>
